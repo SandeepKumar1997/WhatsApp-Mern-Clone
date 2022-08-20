@@ -1,0 +1,20 @@
+.sidebarChatRoom {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebarChatRoom:hover {
+  background-color: #ebebeb;
+}
+
+.sidebarChatRoom__room {
+  margin-left: 15px;
+}
+
+.sidebarChatRoom__room > h2 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
